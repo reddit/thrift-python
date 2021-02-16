@@ -1,0 +1,14 @@
+--- setup.py.orig	2021-02-16 19:37:39.130709780 +0000
++++ setup.py	2021-02-16 19:38:16.758748189 +0000
+@@ -90,9 +90,9 @@
+     tornado_deps = ['tornado>=4.0']
+     twisted_deps = ['twisted']
+ 
+-    setup(name='thrift',
++    setup(name='thrift-unofficial',
+           version='0.14.0',
+-          description='Python bindings for the Apache Thrift RPC system',
++          description='unofficial distribution of Python bindings for the Apache Thrift RPC system',
+           author='Apache Thrift Developers',
+           author_email='dev@thrift.apache.org',
+           url='http://thrift.apache.org',
