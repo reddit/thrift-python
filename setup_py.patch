@@ -1,14 +1,15 @@
---- setup.py.orig	2021-03-02 22:04:09.279820600 +0000
-+++ setup.py	 22:04:32.263841924 +0000
-@@ -90,9 +90,9 @@
+--- a/lib/py/setup.py
++++ b/lib/py/setup.py
+@@ -104,9 +104,9 @@ def run_setup(with_binary):
      tornado_deps = ['tornado>=4.0']
      twisted_deps = ['twisted']
  
 -    setup(name='thrift',
 +    setup(name='thrift-unofficial',
-           version='0.14.1',
+           version='0.19.0',
 -          description='Python bindings for the Apache Thrift RPC system',
 +          description='unofficial distribution of Python bindings for the Apache Thrift RPC system',
+           long_description=read_file("README.md"),
+           long_description_content_type="text/markdown",
            author='Apache Thrift Developers',
-           author_email='dev@thrift.apache.org',
-           url='http://thrift.apache.org',
+
