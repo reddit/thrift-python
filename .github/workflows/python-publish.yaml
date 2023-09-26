@@ -24,7 +24,7 @@ jobs:
 
     - name: Prepare package
       run: |
-        curl -Lo thrift.tar.gz https://github.com/apache/thrift/archive/v0.14.1.tar.gz
+        curl -Lo thrift.tar.gz https://github.com/apache/thrift/archive/refs/tags/v0.19.0.tar.gz
         sha256sum --check checksums.txt
         tar -x --wildcards --exclude --no-anchored "thrift*/lib/py/" --strip-components=3 -f thrift.tar.gz
         patch < setup_py.patch
